@@ -8,10 +8,13 @@ The model was trained on the modified MNIST dataset with added digit bounding bo
 The model was tested on the modified MNIST testing dataset, achieving a mean average precision (mAP) of 74%. In real-time object detection scenarios, the system is able to detect and classify digits with relatively high precision. See the section below to check some of the scenarios.
 
 ## Usage
-To use the digit recognition system first, you need to install some dependencies:
+To use the digit recognition system first, you need to install some dependencies. In the project's folder run:
 
 ```
 git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt  # install
+cd ../
 pipenv shell --python 3.8
 pipenv install --dev
 ```
