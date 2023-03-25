@@ -11,11 +11,12 @@ The model was tested on the modified MNIST testing dataset, achieving a mean ave
 To use the digit recognition system first, you need to install some dependencies:
 
 ```
+git clone https://github.com/ultralytics/yolov5
 pipenv shell --python 3.8
 pipenv install --dev
 ```
 
-Then simply run
+Then simply run:
 
 ```
 streamlit run main.py
