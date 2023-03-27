@@ -8,10 +8,12 @@ The model was trained on the modified MNIST dataset with added digit bounding bo
 The model was tested on the modified MNIST testing dataset, achieving a mean average precision (mAP) of 74%. In real-time object detection scenarios, the system is able to detect and classify digits with relatively high precision. See the section below to check some of the scenarios.
 
 ## Usage
-To use the digit recognition system first, you need to install some dependencies. For this, you need Python 3.9 and pipenv installed. In the project's folder run:
+To use the digit recognition system first, you need to install some dependencies. For this, you need Python 3.10 and pipenv installed. Once you have this installed, run:
 
 ```
-pipenv shell --python 3.9
+git clone https://github.com/ozerodar/yolo-digits-detection
+cd yolo-digits-detection
+pipenv shell --python 3.10
 pipenv install --dev
 git clone https://github.com/ultralytics/yolov5
 pip install -r yolov5/requirements.txt 
